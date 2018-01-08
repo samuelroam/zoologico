@@ -11,21 +11,21 @@ public class MainYaizaM {
 		
 			Animal[] animales = new Animal[5]; 
 			
-			animales[0] = new OsoPanda("Mini", 10); 
+			animales[0] = new OsoPanda(); 
 			
-			animales[1] = new Pinguino(); 
+			animales[1] = new Gekko(); 
 			
-			animales[2] = new Lombriz(120); 
+			animales[2] = new Mono(); 
 			
-			animales[3] = new Rana(); 
+			animales[3] = new Perro("Yako", "Spanier"); 
 			
-			animales[4] = new Elefante("Trompy", 2); 
+			animales[4] = new Pez(); 
 			
 			//recorrer el array
 			
 			for(int i = 0; i < animales.length; i++){
 				Animal animal = animales[i]; 
-				animal.mostrar();
+				animal.mostrar();//aplicar método mostrar 
 			}
 	}
 
