@@ -8,20 +8,32 @@ public class Main_Ander_L {
 		
 		animales[0]= new Pinguino();
 		
-		animales[1]= new Leon();
+		animales[1]= new Mono();
 		
-		animales[2]= new Rana();
+		animales[2]= new Pez();
 		
 		animales[3]= new OsoPanda();
 		
-		animales[4]= new Pez();
+		animales[4]= new Gekko();
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		for (int i =0; i< animales.length ; i++){
 			
-			System.out.println(animales[i].getEspecie());
+			Animal animal = animales[i];
+			animal.mostrar();
+			
+			
 		}
 		
+		Animal a= new Pinguino();
+		Pinguino p = new Pinguino();
 		
 	
 		

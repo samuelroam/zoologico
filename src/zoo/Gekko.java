@@ -92,7 +92,8 @@ public class Gekko extends Animal {
 	@Override
 	public void mostrar() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Mostrando Info: ");
+		this.getInfo();
 	}
 	
 	
