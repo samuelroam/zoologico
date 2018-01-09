@@ -35,6 +35,12 @@ public class Rana extends Animal{
 		System.out.println("Tiene " + super.getPatas() + " patas.");
 		System.out.println("Es de color " + this.getColor());
 	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 

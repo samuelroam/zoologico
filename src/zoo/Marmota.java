@@ -44,5 +44,11 @@ public class Marmota extends Animal{
 		super("marota", 4);
 		this.setPeso(peso);
 	}
+
+	@Override
+	public void mostrar() {
+		System.out.println("Soy una marmota, wii");
+		
+	}
 	
 }

@@ -58,6 +58,14 @@ public class Leon extends Animal {
 	public void mostrarInfo(){
 		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos y tiene "+this.getEdad() +" años");
 	}
+
+
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }

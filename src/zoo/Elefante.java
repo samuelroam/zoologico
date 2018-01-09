@@ -30,6 +30,12 @@ public class Elefante extends Animal {
 		System.out.println("Soy un " + this.getEspecie() + " con " + this.getPatas() + " patas");
 		System.out.println("Soy de color " + this.getColor() + " y mi trompa mide " + this.getLongitudTrompa() + "m");
 	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }

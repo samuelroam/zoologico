@@ -9,4 +9,10 @@ public class Puercoespin extends Animal {
 		super.setPatas(patas);
 	}
 
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
